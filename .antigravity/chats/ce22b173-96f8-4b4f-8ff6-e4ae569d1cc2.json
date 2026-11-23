@@ -3,7 +3,7 @@
   "name": "Analyze this codebase and define clear",
   "createdAt": "2026-11-23T12:20:29.432Z",
   "filename": "ce22b173-96f8-4b4f-8ff6-e4ae569d1cc2.json",
-  "geminiStarted": false,
+  "geminiStarted": true,
   "messages": [
     {
       "id": "69311380-847c-4cb5-a93a-4f79e89dcf8e",
@@ -15,6 +15,42 @@
       "parent_message_id": null,
       "created_at": "2026-11-23T12:21:30.675Z",
       "sender": "ios",
+      "is_cancelled": false
+    },
+    {
+      "id": "b465c603-ccb5-4043-b78f-9c39c024e184",
+      "role": "agent",
+      "content": "¡Sí, depende de a qué te refieras!\n\n- **Nuestro chat y tu proyecto:** Podemos hablar completamente en español y todo lo que creemos aquí (sitios web, textos, apps, código o documentación) puedo hacerlo 100 % en español.\n- **Un proyecto o contenido existente:** Por ahora tu espacio de trabajo está vacío (todavía no hay archivos en el proyecto). Si tienes textos, archivos o una web que quieras traducir, puedes pegarlos aquí o conectar tu repositorio tocando el ícono de GitHub en la parte superior del chat, y lo traduzco todo.\n- **Los menús y botones de esta aplicación:** Desde aquí no puedo cambiar el idioma de la interfaz de la app en sí. Si la estás usando desde un navegador web, puedes usar la opción de traducir página del navegador.\n\n¿Qué te gustaría traducir o crear en español?",
+      "status": "completed",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "69311380-847c-4cb5-a93a-4f79e89dcf8e",
+      "created_at": "2026-11-23T12:21:57.776Z",
+      "sender": "macOS",
+      "is_cancelled": false
+    },
+    {
+      "id": "0a9d109f-413d-450e-a673-ea26ce1eab1b",
+      "role": "user",
+      "content": "creo que en automático de pasaría todo aquí desde mi PC pero está bien iniciar aquí de ceros",
+      "status": "pending",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-11-23T12:22:54.781Z",
+      "sender": "ios",
+      "is_cancelled": false
+    },
+    {
+      "id": "d6946ad4-a018-4666-bb08-b2e4aec37437",
+      "role": "agent",
+      "content": "¡Perfecto! Empezar desde cero nos da total libertad para construirlo exactamente como lo necesitas y 100 % en español.\n\nCuéntame:\n1. **¿De qué es tu proyecto?** (Por ejemplo: una página web de negocio/landing page, un portafolio personal, una app web, un blog, etc.).\n2. **¿Tienes alguna idea de secciones, diseño o colores en mente?**\n\nDime tu idea y empezamos a darle forma de inmediato. En cualquier momento podrás ver los avances directamente en la vista previa.",
+      "status": "completed",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "0a9d109f-413d-450e-a673-ea26ce1eab1b",
+      "created_at": "2026-11-23T12:23:06.358Z",
+      "sender": "macOS",
       "is_cancelled": false
     }
   ]
